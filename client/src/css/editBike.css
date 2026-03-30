@@ -1,0 +1,36 @@
+.edit-bike {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+.edit-bike .preview-panel {
+  flex: 1;
+  position: sticky;
+  top: 2rem;
+}
+
+.edit-bike .form-panel {
+  flex: 1;
+}
+
+.edit-bike label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.edit-bike select,
+.edit-bike input[type='text'] {
+  width: 100%;
+}
+
+.edit-bike .error {
+  color: rgb(255, 80, 80);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
